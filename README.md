@@ -13,13 +13,10 @@ Create a file name kustomization.yaml
 Then paste the below kustomize content
 
 apiVersion: kustomize.config.k8s.io/v1beta1
-
 kind: Kustomization
-
 namespace: argocd
 
 resources:
-
 - https://raw.githubusercontent.com/argoproj/argo-cd/v2.7.2/manifests/install.yaml
 
 :wq
